@@ -15,11 +15,14 @@ export const Hero = () => {
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 pt-4">
         <div className="text-center mb-16">
-          <h1
-            className="text-4xl md:text-6xl font-bold mb-6 tracking-tight bg-gradient-to-b 
-            from-black via-violet-500 to-violet-600 dark:from-white text-transparent bg-clip-text"
-          >
-            Revolucione seu método de trabalho. Aumente sua Produtividade
+          <h1 className="text-4xl md:text-6xl font-medium mb-6 tracking-tight">
+            Revolucione seu método de trabalho.{" "}
+            <span
+              className="bg-gradient-to-br dark:from-white font-bold bg-clip-text 
+            text-transparent from-black via-violet-500 to-violet-900"
+            >
+              Aumente sua Produtividade
+            </span>
           </h1>
           <p className="text-muted-foreground text-lg mb-6 max-w-2xl mx-auto">
             Gerencie seus horários, ofereça agendamento 24h/dia, aceite
