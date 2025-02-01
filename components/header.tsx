@@ -21,8 +21,7 @@ export const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
       <div
-        className="flex items-center justify-between px-6 py-4 backdrop-blur-xl bg-background border 
-      border-muted"
+        className="flex items-center justify-between px-6 py-4 bg-tr backdrop-blur-xl bg-background/60"
       >
         <div className="flex items-center gap-2">
           <Link href={"#"}>
@@ -34,7 +33,7 @@ export const Header = () => {
             <Link
               key={link.path}
               href={link.path}
-              className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+              className="text-sm font-medium text-primary/80 hover:text-primary transition-colors"
             >
               {link.text}
             </Link>

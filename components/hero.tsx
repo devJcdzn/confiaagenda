@@ -2,6 +2,7 @@ import Link from "next/link";
 import { InteractiveGrid } from "./ui/interactive-grid";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "./ui/button";
+import Image from "next/image";
 
 export const Hero = () => {
   return (
@@ -43,6 +44,19 @@ export const Hero = () => {
             >
               Comece agora
             </Link>
+          </div>
+        </div>
+
+        <div className="relative mx-auto">
+          <div className="relative">
+            <Image
+              src={"/preview.png"}
+              alt="preview"
+              width={1920}
+              height={1080}
+              className="w-full h-auto rounded-lg"
+              priority
+            />
           </div>
         </div>
       </div>
