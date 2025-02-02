@@ -1,33 +1,5 @@
 import { FeaturesGrid } from "./ui/features-grid";
 
-const features = [
-  {
-    title: "Economize tempo, só olhar a agenda",
-    description:
-      "Com o painel de serviços do Confiaagenda, você economiza muito tempo podendo ver todos os agendamentos da semana de uma só vez",
-    image: "",
-  },
-  {
-    title: "Agende a qualquer momento",
-    description:
-      "Com seu negócio online o você fica 24h/dia disponível para receber agendamentos, só o cliente acessar sua página e prontinho",
-    image: "",
-  },
-  {
-    title: "Personalize com sua imagem, deixe sua cara",
-    description:
-      "Sabia dessa? Sua página no Confiaagenda é 100% personalizável, com sua logo, cor de fundo cor dos botões e muito mais.",
-    image: "",
-  },
-  {
-    title: "Otimize mais ainda, receba online",
-    soon: true,
-    description:
-      "Aqui você vai poder aceitar o pagamento do seu serviço agendado com antecedência.",
-    image: "",
-  },
-];
-
 const customItems = [
   {
     id: "1",
@@ -60,9 +32,7 @@ export const Features = () => {
     <section className="py-16 px-6" id="about">
       <div className="max-w-4xl mx-auto">
         <h2
-          className="text-4xl font-bold mb-4 text-center bg-clip-text 
-        text-transparent bg-gradient-to-b from-black dark:from-white 
-        to-violet-600"
+          className="text-4xl font-bold mb-4 text-center text-primary"
         >
           A melhor forma de gerenciar seus clientes
         </h2>

@@ -28,7 +28,7 @@ export const FeaturesGrid = ({ items }: { items: Item[] }) => {
   );
 
   return (
-    <div className="flex items-center justify-center gap-12">
+    <div className="flex flex-col gap-4 items-center justify-center md:flex-row md:gap-12">
       <TiltedScroll
         items={items}
         className="mt-8"
@@ -49,7 +49,10 @@ export const FeaturesGrid = ({ items }: { items: Item[] }) => {
             </p>
             <Link
               href={"/features"}
-              className={cn(buttonVariants({ variant: "default" }), "mt-4 w-full rounded-lg")}
+              className={cn(
+                buttonVariants({ variant: "default" }),
+                "mt-4 w-full rounded-lg"
+              )}
             >
               Ver todas as Features
             </Link>
