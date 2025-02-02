@@ -2,6 +2,7 @@ import { Features } from "@/components/features";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { Pricing } from "@/components/pricing";
+import { Testimonials } from "@/components/testimonials";
 import { UtilitiesSection } from "@/components/utilities";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Features />
       <UtilitiesSection />
       <Pricing />
+      <Testimonials />
     </div>
   );
 }

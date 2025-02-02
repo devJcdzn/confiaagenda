@@ -78,13 +78,13 @@ function PricingSection({ tiers, className }: PricingSectionProps) {
             Preços justos de verdade
           </h2>
           <div className="inline-flex items-center p-1.5 bg-white dark:bg-zinc-800/50 rounded-full border border-zinc-200 dark:border-zinc-700 shadow-sm">
-            {["Monthly", "Yearly"].map((period) => (
+            {["Mensal", "Anual"].map((period) => (
               <button
                 key={period}
-                onClick={() => setIsYearly(period === "Yearly")}
+                onClick={() => setIsYearly(period === "Anual")}
                 className={cn(
                   "px-8 py-2.5 text-sm font-medium rounded-full transition-all duration-300",
-                  (period === "Yearly") === isYearly
+                  (period === "Anual") === isYearly
                     ? "bg-violet-500 text-white shadow-lg"
                     : "text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100"
                 )}
