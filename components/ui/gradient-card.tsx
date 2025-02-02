@@ -8,7 +8,7 @@ interface GradientCardProps {
 export function GradientCard({ children, className = "" }: GradientCardProps) {
   return (
     <div
-      className={`relative rounded-xl bg-violet-300/20 p-[1px] backdrop-blur-3xl ${className}`}
+      className={`relative rounded-xl p-[1px] backdrop-blur-3xl ${className}`}
     >
       <div className="relative rounded-xl p-6">{children}</div>
     </div>
